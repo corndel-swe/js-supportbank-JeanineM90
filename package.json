@@ -28,6 +28,7 @@
     "cliui": "^7.0.4",
     "color-convert": "^2.0.1",
     "color-name": "^1.1.4",
+    "commander": "^12.1.0",
     "debug": "^4.3.4",
     "decamelize": "^4.0.0",
     "diff": "^5.0.0",

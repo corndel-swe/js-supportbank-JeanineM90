@@ -65,25 +65,25 @@ project.
 
 Let's set up a CLI so that we can run the program from the command line.
 
-- [ ] Read the page on
+- [x] Read the page on
       [Making a CLI](https://tech-docs.corndel.com/js/making-a-cli.html).
 
-- [ ] [Install](https://tech-docs.corndel.com/js/making-a-cli.html#installing-commander)
+- [x] [Install](https://tech-docs.corndel.com/js/making-a-cli.html#installing-commander)
       the `commander` package.
 
-- [ ] Make a new file under `cli/index.js`.
+- [x] Make a new file under `cli/index.js`.
       [Set up the CLI](https://tech-docs.corndel.com/js/making-a-cli.html#setting-up-your-cli)
       just like in the docs. Make sure that the version is `'0.1.0'` and the
       description is `'SupportBank'`. Check that `node cli --version` displays
       the version number. At this point you can run `npm run test:d1e3` and
       should see some passing tests.
 
-- [ ] In `cli/transaction.js` there is a `transactionController`. It hasn't been
+- [x] In `cli/transaction.js` there is a `transactionController`. It hasn't been
       registered yet.
       [Import and register](https://tech-docs.corndel.com/js/making-a-cli.html#register-the-command)
       it with the CLI in `cli/index.js`.
 
-- [ ] Right now, the `transaction log` command doesn't do anything. We want to
+- [x] Right now, the `transaction log` command doesn't do anything. We want to
       make it so that it logs the transactions to the console. Make it log a
       transaction nicely, so that the command
 
@@ -97,7 +97,7 @@ Let's set up a CLI so that we can run the program from the command line.
       At 01/03/2024 11:27am, Jon A sent Joe G £100
       ```
 
-- [ ] All tests should now be passing. Commit and push!
+- [x] All tests should now be passing. Commit and push!
 
 Congratulations! Your project is set up with git, testing, ES6 Modules and
 commander. :tada:
