@@ -47,19 +47,19 @@ You'll have seen and used some `import` and `export` statements in the code
 you've been working with. This exercise is about setting that up for the
 project.
 
-- [ ] Read the docs on
+- [x] Read the docs on
       [import and export](https://tech-docs.corndel.com/js/imports-and-exports.html).
 
-- [ ] Configure the `package.json` file to
+- [x] Configure the `package.json` file to
       [use ES6 imports](https://tech-docs.corndel.com/js/imports-and-exports.html#configuring-the-project).
       Run `npm run test:d1e2` - the first test should be passing.
 
-- [ ] There is a file in `exercises/hello.js`. Make sure `num` is
+- [x] There is a file in `exercises/hello.js`. Make sure `num` is
       [exported as a named export](https://tech-docs.corndel.com/js/imports-and-exports.html#named-and-default-exports).
 
-- [ ] Export `sayHi` from `exercises/hello.js` as the default export.
+- [x] Export `sayHi` from `exercises/hello.js` as the default export.
 
-- [ ] Check that the tests are passing. Commit and push!
+- [x] Check that the tests are passing. Commit and push!
 
 ## Exercise 3: Using Commander to set up a CLI
 

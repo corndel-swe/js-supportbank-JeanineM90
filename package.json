@@ -4,6 +4,7 @@
   },
   "name": "js-supportbank-jeaninem90",
   "version": "1.0.0",
+  "type": "module",
   "description": "<p align=\"center\">\r   <img width=\"200px\" src=\"docs/supportbank-logo.png\" alt=\"Supportbank Logo\" />\r </p>",
   "main": "index.js",
   "directories": {
