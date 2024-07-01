@@ -9,17 +9,17 @@ the steps required to get this repo working.
 (Please note that no tests will pass for Exercise 1 until all steps are
 completed, because the testing tools haven't been installed yet!)
 
-- [ ] Read the docs on
+- [x] Read the docs on
       [Creating a Node project](https://tech-docs.corndel.com/js/node-projects.html).
 
-- [ ] Use `npm init` to
+- [x] Use `npm init` to
       [initialise the project](https://tech-docs.corndel.com/js/node-projects.html#initialising-with-npm-init).
 
-- [ ] Install the `mocha` package
+- [x] Install the `mocha` package
       [as a _development_ dependency](https://tech-docs.corndel.com/js/node-projects.html#installing-packages-with-npm-install)
       (use the `-D` flag).
 
-- [ ] Add the following test scripts to the `package.json`:
+- [x] Add the following test scripts to the `package.json`:
 
   ```JSON
     "scripts": {
@@ -35,10 +35,10 @@ completed, because the testing tools haven't been installed yet!)
     }
   ```
 
-- [ ] [Create a `.gitignore` file](https://tech-docs.corndel.com/js/node-projects.html#tracking-with-git)
+- [x] [Create a `.gitignore` file](https://tech-docs.corndel.com/js/node-projects.html#tracking-with-git)
       and add `node_modules` to it.
 
-- [ ] Now run `npm run test:d1e1`. All tests should be passing. Commit and push
+- [x] Now run `npm run test:d1e1`. All tests should be passing. Commit and push
       your code!
 
 ## Exercise 2: Modularisation
