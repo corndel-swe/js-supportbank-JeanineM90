@@ -4,6 +4,8 @@ import fs from 'fs/promises'
 export async function readHelloWorld() {
   // The path is provided for you:
   const path = new URL('./resources/1-hello-world.txt', import.meta.url)
+  const txt = await fs.readFile(path, 'uft-8')
+  return txt
 
   // TODO: Return the contents of the file as a utf-8 string
 }
