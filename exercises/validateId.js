@@ -31,6 +31,8 @@ export function validateId(id) {
   if (id !== id.toLowerCase()) {
     throw new Error('ID should be all lowercase')
   }
+
+  return true
 }
 
 // Exercise 2 Part 2
@@ -39,10 +41,10 @@ export function validateId(id) {
 // If an error is thrown: catch it, log a useful message, then return `false`
 export function isIdValid(id, logger) {
   try {
-    validateId(id)
+    return validateId(id)
   } catch (error) {
     logger.error('ID is invalid')
     return false
   }
-  return true
+  //return true
 }
