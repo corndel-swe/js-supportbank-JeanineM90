@@ -33,7 +33,7 @@ In this exercise, we'll be creating functionality that checks the validity of a
 
 To run the tests for this exercise, use `npm run test:d2e2`.
 
-- [ ] Have a look at the
+- [x] Have a look at the
       [Error Handling](https://tech-docs.corndel.com/js/handling-errors.html)
       documentation for this exercise.
 
