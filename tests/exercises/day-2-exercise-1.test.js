@@ -27,8 +27,8 @@ describe('breakfast', () => {
             const bread = {}
 
             const toaster = {
-                add: () => {},
-                toast: () => new Promise(() => {}),
+                add: () => { },
+                toast: () => new Promise(() => { }),
                 pop: () => bread,
             }
 
@@ -48,7 +48,7 @@ describe('breakfast', () => {
             const bread = {}
 
             const toaster = {
-                add: () => {},
+                add: () => { },
                 toast: () => Promise.resolve(),
                 pop: () => bread,
             }
@@ -79,19 +79,19 @@ describe('breakfast', () => {
             const beans = {}
 
             const grinder = {
-                add: () => {},
-                grind: () => {},
+                add: () => { },
+                grind: () => { },
                 dump: () => beans,
             }
 
             const coffeeMaker = {
-                add: () => {},
-                brew: () => new Promise(() => {}),
-                pour: () => {},
+                add: () => { },
+                brew: () => new Promise(() => { }),
+                pour: () => { },
             }
 
             const cup = {
-                fill: () => {},
+                fill: () => { },
             }
 
             const makeCoffeePromise = makeCoffee(
@@ -115,19 +115,19 @@ describe('breakfast', () => {
             const beans = {}
 
             const grinder = {
-                add: () => {},
-                grind: () => {},
+                add: () => { },
+                grind: () => { },
                 dump: () => beans,
             }
 
             const coffeeMaker = {
-                add: () => {},
+                add: () => { },
                 brew: () => Promise.resolve(),
-                pour: () => {},
+                pour: () => { },
             }
 
             const cup = {
-                fill: () => {},
+                fill: () => { },
             }
 
             const makeCoffeePromise = makeCoffee(
@@ -151,19 +151,19 @@ describe('breakfast', () => {
             const beans = {}
 
             const grinder = {
-                add: () => {},
-                grind: () => new Promise(() => {}),
+                add: () => { },
+                grind: () => new Promise(() => { }),
                 dump: () => beans,
             }
 
             const coffeeMaker = {
-                add: () => {},
-                brew: () => {},
-                pour: () => {},
+                add: () => { },
+                brew: () => { },
+                pour: () => { },
             }
 
             const cup = {
-                fill: () => {},
+                fill: () => { },
             }
 
             const makeCoffeePromise = makeCoffee(
@@ -187,19 +187,19 @@ describe('breakfast', () => {
             const beans = {}
 
             const grinder = {
-                add: () => {},
+                add: () => { },
                 grind: () => Promise.resolve(),
                 dump: () => beans,
             }
 
             const coffeeMaker = {
-                add: () => {},
-                brew: () => {},
-                pour: () => {},
+                add: () => { },
+                brew: () => { },
+                pour: () => { },
             }
 
             const cup = {
-                fill: () => {},
+                fill: () => { },
             }
 
             const makeCoffeePromise = makeCoffee(
@@ -234,21 +234,21 @@ describe('breakfast', () => {
             const beans = {}
 
             const toaster = {
-                add: () => {},
+                add: () => { },
                 toast: () => Promise.resolve(),
                 pop: () => bread,
             }
 
             const grinder = {
-                add: () => {},
+                add: () => { },
                 grind: () => Promise.resolve(),
                 dump: () => beans,
             }
 
             const coffeeMaker = {
-                add: () => {},
+                add: () => { },
                 brew: () => Promise.resolve(),
-                pour: () => {},
+                pour: () => { },
             }
 
             const cup = {
