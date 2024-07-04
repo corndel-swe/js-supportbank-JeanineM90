@@ -37,13 +37,13 @@ To run the tests for this exercise, use `npm run test:d2e2`.
       [Error Handling](https://tech-docs.corndel.com/js/handling-errors.html)
       documentation for this exercise.
 
-- [ ] Implement the `validateId` function inside
+- [x] Implement the `validateId` function inside
       [exercises/validateId.js](/exercises/validateId.js).
 
 Now that we've written a function that throws a bunch of errors, we'll write a
 function that catches them.
 
-- [ ] Implement the function `isIdValid()` inside
+- [x] Implement the function `isIdValid()` inside
       [exercises/validateId.js](/exercises/validateId.js). It should:
 
   - `try` to call `validateId` on the `id`
@@ -70,7 +70,7 @@ Finally, we'll be looking at persisting data by reading and writing files.
 
 To run the tests for them, use `npm run test:d2e3`.
 
-- [ ] Have a look at
+- [x] Have a look at
       [Reading and Writing Files](https://tech-docs.corndel.com/js/reading-and-writing-files.html).
 
 - [ ] Complete the functions in [exercises/fileIO.js](/exercises/fileIO.js).
