@@ -32,7 +32,9 @@ transactionController
 export default transactionController
 */
 const file = await fs.readFile("data/Transactions2014.csv", "utf-8")
+//2013.json
 const fileLines = file.split("\r\n")
+// const fileTransactions = JSON.parse(file)
 
 const transactionController = new Command('transaction')
 

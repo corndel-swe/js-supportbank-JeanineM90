@@ -6,10 +6,15 @@ export async function readJSONTransactions() {
   // and return it
 
   // read data
-  const path = new URL('./config.json', import.meta.url)
-  const data = await fs.readFile(path)
+  const path = new URL('../data/Transactions2013.json', import.meta.url)
+  const data = await fs.readFile(path, 'utf-8')
 
   // parse into js object
+
   const obj = JSON.parse(data)
-  console.log(obj)
+
+  return obj
 }
+
+//data/Transactions2013.json
+//SeefileIO
