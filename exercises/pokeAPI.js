@@ -2,7 +2,12 @@ export async function getPokemonList() {
   // TODO
   const response = await fetch('https://pokeapi.co/api/v2/pokemon')
   const data = await response.json()
-  return data
+  console.log(data)
+
+  const getNames = data.results.map(pokemon => pokemon.name) // arrow functions 
+
+  return getNames
+
 }
 
 /*
@@ -16,7 +21,7 @@ export async function getPokemonList() {
 
   --
 
-Tech docs:
+Tech docs example:
 const response = await fetch('https://www.boredapi.com/api/activity')
 const data = await response.json()
 console.log(data)
@@ -31,6 +36,9 @@ console.log(response)
 
 makeApiRequest()
 
+--
+
 .map to extract names from results array
+https://tech-docs.corndel.com/js/array-map.html
 
 */

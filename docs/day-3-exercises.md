@@ -23,7 +23,7 @@
 - [x] Have a look through the
       [JSON documentation](https://tech-docs.corndel.com/js/working-with-json.html).
 
-- [ ] Open up
+- [x] Open up
       [exercises/readJSONTransactions.js](/exercises/readJSONTransactions.js)
       and implement the `readJSONTransactions` function. It should
 
@@ -43,7 +43,7 @@ In this exercise, we'll be fetching data from the
 
 - [x] Open `exercises/pokeAPI.js`.
 
-- [ ] Complete the function `getPokemonList()`. It should
+- [x] Complete the function `getPokemonList()`. It should
 
   - make a `GET` request to `https://pokeapi.co/api/v2/pokemon`
 
