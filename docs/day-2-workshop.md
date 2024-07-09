@@ -17,7 +17,7 @@ Use a class for each type of object you want to create.
 
 You should add two commands:
 
-- [ ] `node cli transaction summarise all` – should output the names of each
+- [x] `node cli transaction summarise all` – should output the names of each
       person, and the total amount of money they should receive from the bank.
       (It could be a negative number, if they owe the bank money!)
 
@@ -57,3 +57,4 @@ values.
 
 Remember [slice](https://tech-docs.corndel.com/js/array-slice.html)? You can use
 `.slice(1)` to keep only the data rows and get rid of the header.
+

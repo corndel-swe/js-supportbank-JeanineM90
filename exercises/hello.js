@@ -1,5 +1,6 @@
-const num = 3495
+export const num = 3495
 
-function sayHi() {
+export default function sayHi() {
   return 'Hello ES6 Modules!'
 }
+
